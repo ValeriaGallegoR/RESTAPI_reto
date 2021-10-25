@@ -8,13 +8,14 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
+import static org.apache.http.HttpStatus.SC_NOT_FOUND;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 public class PokemonFailStepDefinition {
-    private static final String restApiUrl = "https://pokeapi.co/val";
+    private static final String restApiUrl = "https://pokeapi.co/noexiste";
     Actor actor;
 
     @Given("el usuario necesita verificar el pokemon ditto")
@@ -25,20 +26,10 @@ public class PokemonFailStepDefinition {
                 GetUsers.fromPage("/api/v2/pokemon/ditto")
         );
     }
-
-    @When("el sistema verifica que la habilidad del pokemon exista")
-    public void elSistemaVerificaQueLaHabilidadDelPokemonExista() {
+    @Then("el usuario no podra verificar porque saldra un mensaje de Not Found")
+    public void elUsuarioNoPodraVerificarPorqueSaldraUnMensajeDeNotFound() {
         actor.should(
-                seeThat("El código de respuesta", ResponseCode.was(), equalTo(404))
+                seeThat("El código de respuesta", ResponseCode.was(), equalTo(SC_NOT_FOUND))
         );
     }
-
-    @Then("el usuario no podra ver la habilidad de ditto porque esta no existe")
-    public void elUsuarioNoPodraVerLaHabilidadDeDittoPorqueEstaNoExiste() {
-            Abilities result = new GetUserQuestion().answeredBy(actor).getAbilities().stream()
-                    .filter(x -> x.getAbility().getName().equals("SuperFuerza")).findFirst().orElse(null);
-            actor.should(
-                    seeThat("El nombre de la habilidad es: ", act -> result, notNullValue())
-            );
-        }
 }

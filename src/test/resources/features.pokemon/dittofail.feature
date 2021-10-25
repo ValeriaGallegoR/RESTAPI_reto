@@ -5,5 +5,4 @@ Feature: consulta de pokemon fallida
 
   Scenario: pokemon ditto ability fail
     Given el usuario necesita verificar el pokemon ditto
-    When el sistema verifica que la habilidad del pokemon exista
-    Then el usuario no podra ver la habilidad de ditto porque esta no existe
+    Then el usuario no podra verificar porque saldra un mensaje de Not Found

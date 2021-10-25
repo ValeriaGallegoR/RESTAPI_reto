@@ -8,6 +8,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
+import static org.apache.http.HttpStatus.SC_OK;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.notNullValue;
@@ -30,7 +31,7 @@ public class PokemonStepdefinition {
     @When("el sistema verifica que dicho pokemon exista")
     public void elSistemaVerificaQueDichoPokemonExista() {
         actor.should(
-                seeThat("El código de respuesta", ResponseCode.was(), equalTo(200))
+                seeThat("El código de respuesta", ResponseCode.was(), equalTo(SC_OK))
         );
     }
 

@@ -19,3 +19,5 @@ Msrc/test/java/co/com/sofka/stepdefinitions/pokemon/PokemonStepdefinition.java,
 Qsrc/test/java/co/com/sofka/stepdefinitions/pokemon/PokemonFailStepDefinition.java,2\b\2ba3de3a553f5f1a34dc78f27ba0a15be8fc6fac
 l
 <src/test/java/co/com/sofka/runner/pokemon/RunnerPokemon.java,7\d\7d70365ac16c5626f60d38db877c2d45738dbfea
+O
+target/site/serenity/index.html,c\e\ce1d953599e56cfde85da6acfdbbb722b0c73490
