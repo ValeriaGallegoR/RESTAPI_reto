@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="consulta de pokemon fallida" skipped="0" tests="1" time="5.09" timestamp="2021-10-24 11:57:10"><testcase name="pokemon ditto ability fail"><error message="Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=utf-8'." type="java.lang.IllegalStateException">Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=utf-8'.</error><system-err>Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=utf-8'.&#13;
-io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:84)&#13;
-io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:220)&#13;
-io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:166)&#13;
-net.serenitybdd.rest.decorators.ResponseDecorated.as(ResponseDecorated.java:63)&#13;
-co.com.sofka.question.GetUserQuestion.answeredBy(GetUserQuestion.java:11)&#13;
-co.com.sofka.stepdefinitions.pokemon.PokemonFailStepDefinition.elUsuarioNoPodraVerLaHabilidadDeDittoPorqueEstaNoExiste(PokemonFailStepDefinition.java:38)&#13;
-✽.el usuario no podra ver la habilidad de ditto porque esta no existe(file:///C:/SofkaU/Automatización/RESTAPI_reto/src/test/resources/features.pokemon/dittofail.feature:9)&#13;
-</system-err></testcase></testsuite>
