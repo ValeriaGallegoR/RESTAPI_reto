@@ -7,6 +7,12 @@ apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 apply plugin: 'org.sonarqube'
 
+sonarqube {
+    properties {
+        property "sonar.projectKey", "ejemplo1"
+    }
+}
+
 tasks.withType(Test) {
     systemProperties = System.properties
     maxParallelForks = Runtime.runtime.availableProcessors()
