@@ -11,5 +11,6 @@ import org.junit.runner.RunWith;
         glue = {"co.com.sofka.stepdefinitions.pokemon"},
         tags = "not @ignore"
 )
+
 public class RunnerPokemon {
 }
