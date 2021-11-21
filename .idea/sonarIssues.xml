@@ -13,6 +13,41 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../EJEMPLO/RETO_REST_API/src/main/java/co/com/sofka/models/episode/ResponseEpisode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../EJEMPLO/RETO_REST_API/src/main/java/co/com/sofka/models/episode/ResultsItemEpisode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../EJEMPLO/RETO_REST_API/src/main/java/co/com/sofka/util/character/GenderAssertions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../EJEMPLO/RETO_REST_API/src/main/java/co/com/sofka/util/character/TypeAssertions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../EJEMPLO/RETO_REST_API/src/test/java/co/com/sofka/runner/rickymorty/RickYMortyRunner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../EJEMPLO/RETO_REST_API/src/test/java/co/com/sofka/stepdefinition/rickymorty/character/GetCharacterByTypeStepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../EJEMPLO/RETO_REST_API/src/test/resources/features/rickymorty/rickymorty.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Jenkinsfile">
           <value>
             <set />
@@ -339,6 +374,76 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/resources/features.pokemon/dittofail.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/main/java/co/com/sofka/models/character/InfoCharacter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/main/java/co/com/sofka/models/character/Response.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/main/java/co/com/sofka/models/episode/ResultsItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/main/java/co/com/sofka/pokeapi/Abilities.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/main/java/co/com/sofka/pokeapi/Ability.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/main/java/co/com/sofka/pokeapi/Example.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/main/java/co/com/sofka/question/GetUserQuestion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/test/java/co/com/sofka/runner/RunnerPokemon.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/test/java/co/com/sofka/stepdefinition/PokemonStepdefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/test/java/sofka/runner/pokemon/RunnerPokemon.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/test/java/sofka/stepdefinitions/pokemon/PokemonFailStepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/test/java/sofka/stepdefinitions/pokemon/PokemonStepdefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RetoFinalRESTAPI/src/test/resources/features/character.feature">
           <value>
             <set />
           </value>

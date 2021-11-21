@@ -1,0 +1,4 @@
+co/com/sofka/runner/pokemon/RunnerPokemon.java
+ co.com.sofka.runner.pokemon.RunnerPokemon
+co/com/sofka/stepdefinitions/pokemon/PokemonFailStepDefinition.java
+ co.com.sofka.stepdefinitions.pokemon.PokemonFailStepDefinition

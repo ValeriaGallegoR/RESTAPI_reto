@@ -1,0 +1,12 @@
+co/com/sofka/task/GetUsers.java
+ co.com.sofka.task.GetUsers
+co/com/sofka/question/GetUserQuestion.java
+ co.com.sofka.question.GetUserQuestion
+co/com/sofka/models/pokeapi/Example.java
+ co.com.sofka.models.pokeapi.Example
+co/com/sofka/models/pokeapi/Ability.java
+ co.com.sofka.models.pokeapi.Ability
+co/com/sofka/question/ResponseCode.java
+ co.com.sofka.question.ResponseCode
+co/com/sofka/models/pokeapi/Abilities.java
+ co.com.sofka.models.pokeapi.Abilities
