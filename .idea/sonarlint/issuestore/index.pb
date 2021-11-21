@@ -9,3 +9,7 @@ f
 6src/main/java/co/com/sofka/models/pokeapi/Ability.java,b\9\b9c03a5f49d6303e20baf4dd198b1da8dea787a8
 f
 6src/main/java/co/com/sofka/models/pokeapi/Example.java,e\c\ece3f0e75dcacf0c01840b50061ef1290e174760
+l
+<src/test/java/co/com/sofka/runner/pokemon/RunnerPokemon.java,7\d\7d70365ac16c5626f60d38db877c2d45738dbfea
+}
+Msrc/test/java/co/com/sofka/stepdefinitions/pokemon/PokemonStepdefinition.java,c\b\cbecaabeff6507064232f19a7acb018ce9f3bb52
