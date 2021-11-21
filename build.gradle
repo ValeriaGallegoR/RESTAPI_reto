@@ -9,6 +9,7 @@ apply plugin: 'org.sonarqube'
 
 sonarqube {
     properties {
+        version "2.7"
         property "sonar.projectKey", "prueba"
     }
 }
@@ -65,8 +66,6 @@ dependencies {
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.3'
     implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.11.3'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.0'
-
-
 }
 
 test {
